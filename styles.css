@@ -1,0 +1,79 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container {
+display: flex;
+width: 600px;
+justify-content: center;
+border-radius: 20px;
+}
+.left {
+    color: white;
+    padding: 20px;
+    width: 40px;
+    border-radius: 20px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+}
+.right{
+    width: 50%;
+    padding: 20px;
+}
+.left text{
+    text-align: center;
+}
+.score-left{
+    padding: 50px;
+    width: 74px;
+    height: 74px;
+    border-radius: 100%;
+    box-shadow: inset 1px 1px 12px 0px hsla(256, 72%, 46%, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.big.score{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    
+}
+.left h3{
+}
+
+
+
+.score.reaction{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.gray {
+ color: rgba(87, 87, 87, 0.992);
+}
+.score.con image{
+    margin: 5px;
+}
+.black.text{
+    color: #222;
+    font-weight: bold;
+}
+.score-memory{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+}
